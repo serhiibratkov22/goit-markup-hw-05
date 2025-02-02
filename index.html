@@ -468,7 +468,55 @@
             </li>
           </ul>
         </div>
+        <div class="contact-form">
+          <p class="contact-form-title">Subscribe</p>
+          <form class="contact-form-imput" name="contact-form-name">
+            <label class="form-control">
+              <input
+                class="mail-input"
+                type="email"
+                id="sub-email"
+                name="sub-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="contact-form-btn" type="submit">Subscribe</button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop">
+      <div class="modal">
+        <div class="modal-content">
+          <h2 class="modal-content-text">
+            Leave your contacts and we will call you back
+          </h2>
+          <form class="modal-form-input">
+            <div class="">
+              <label for="name"
+                >Name:
+                <input type="text" id="name" name="name" required />
+              </label>
+            </div>
+            <div class="">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div class="">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div>
+              <label for="message">Comment:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="">
+              <button class="modal-btn" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
